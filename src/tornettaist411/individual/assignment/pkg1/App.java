@@ -151,7 +151,7 @@ public class App {
     private static void checkSpelling(String joke) //https://docs.microsoft.com/en-us/azure/cognitive-services/bing-spell-check/quickstarts/java
     {
         try{
-            System.out.println(joke);
+            
             String decodedString = "";
             String key = "689d925b91ef4227b3ad4f6acbe5ab9d";
             URL url = new URL("https://javaspellcheckapp.cognitiveservices.azure.com/bing/v7.0/spellcheck");
